@@ -1,0 +1,98 @@
+* {
+    font-family: sans-serif;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: black;
+}
+
+main {
+    text-align: center;
+}
+
+img {
+    max-height: 200px;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+img {
+    padding: 5px;
+}
+
+
+p {
+    display: grid;
+    line-height: 50px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+
+.flexitem {
+    padding: 30px;
+    text-align: center;
+    text-align: middle;
+    margin: 20px;
+}
+
+.instagram-media {
+    display: block;
+    text-align: center;
+}
+
+.item:hover {
+    background-color: lightblue;
+}
+
+nav {
+    background-color: lightgray;
+    padding: 5px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(161, 226, 250, 0.4);
+}
+
+.modal-content {
+    background-color: #66e5f4;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+}
+
+#images {
+    display: flex;
+    justify-content: center;
+}
+
+.close {
+    color: #000000;
+    float: right;
+    font-size: 22px;
+}
